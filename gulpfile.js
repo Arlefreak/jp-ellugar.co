@@ -25,7 +25,7 @@ const jpegtran    = require('imagemin-jpegtran');
 const svgo        = require('imagemin-svgo');
 
 const DEBUG = process.env.NODE_ENV === 'production' ? false : true;
-const DEST_PATH = 'public/';
+const DEST_PATH = 'docs/';
 const DEST_PATH_LIB = DEST_PATH + 'lib/';
 
 // grab libraries files from bower_components, minify and push in /public
